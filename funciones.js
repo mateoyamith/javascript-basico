@@ -13,3 +13,10 @@ var miFuncion2 = function(a, b) {
 }
 
 miFuncion2(1, 2);
+
+var miNombre = "Mateo";
+
+function nombre() {
+    var miApellido = "Sanchez";
+    console.log(miNombre + " " + miApellido);
+}
