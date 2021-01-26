@@ -11,3 +11,9 @@ for (let index = 0; index < estudiantes.length; index++) {
 for (var estudiante of estudiantes) {
     saludarEstudiantes(estudiante);
 }
+
+/*Loop while*/
+while (estudiante.length > 0) {
+    var estudiante = estudiantes.shift();
+    saludarEstudiantes(estudiante);
+}
